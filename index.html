@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AR Quick Look Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .ar-button img {
+      width: 0;
+      height: 0;
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body class="bg-light text-center">
+
+  <div class="container py-5">
+    <h1 class="mb-4">View in AR (Quick Look)</h1>
+    <p class="text-muted">Tap the button below in Safari on iPhone/iPad to open Sushi in Quick Look AR view.</p>
+
+    <div class="d-grid gap-3 mt-4">
+
+      <a rel="ar" href="https://mangomangohub.xyz/Shushi.usdz#callToAction=View%20in%20AR" class="btn btn-primary btn-lg ar-button">
+        🍣 View Sushi in AR
+        <img src="https://mangomangohub.xyz/preview.jpg" alt="Preview">
+      </a>
+
+    </div>
+  </div>
+
+</body>
+</html>
